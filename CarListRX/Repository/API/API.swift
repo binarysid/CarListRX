@@ -38,7 +38,7 @@ struct API{
         }
     }
     enum EndPoints{
-        static let baseURL = "https://cars-sevenpeaks.web.app/"
+        static let baseURL = "https://" + Config.stringValue(forKey: "BASE_URL")
         case carlist
         var url:URL?{
             switch self{

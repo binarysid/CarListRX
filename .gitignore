@@ -2,3 +2,5 @@ Pods/
 UserInterfaceState.xcuserstate
 Breakpoints_v2.xcbkptlist
 contents.xcworkspacedata
+ENV/
+*xcconfig
